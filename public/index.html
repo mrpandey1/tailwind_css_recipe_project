@@ -8,9 +8,9 @@
 </head>
 
 <body class="text-gray-700 font-body">
-    <div>
+    <div class="grid md:grid-cols-3">
         <!-- Start of Nav-->
-        <div>
+        <div class="md:col-span-1">
             <nav>
                 <div>
                     <h1 class="font-bold uppercase p-4 border-b border-gray-100">
@@ -25,7 +25,7 @@
             </nav>
         </div>
         <!-- End of nav-->
-        <main class="px-16 py-6 bg-gray-100">
+        <main class="px-16 py-6 bg-gray-100 md:col-span-2">
             <div class="flex justify-center md:justify-end">
                 <a href="#" class="text-primary">Login</a>
                 <a href="#" class='text-primary ml-2'>Sign up</a>
@@ -37,9 +37,9 @@
             <div> 
                 <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
                 
-                <div class="card">
+                <div class="mt-8 grid lg:grid-cols-3 gap-10">
                     <!-- Cards go here -->
-                    <div>
+                    <div class="card">
                         <img src="img/stew.jpg" alt="stew" class="w-full h-32 md:h-48 object-cover">
                         <div class="m-4">
                             <span class="font-bold">5 Bean chilli Stew</span>
@@ -48,8 +48,7 @@
                         <div class="badges">
                             <span>25 mins</span>
                         </div>
-                    </div>
-                </div>                 
+                    </div>             
                 <div class="card">
                     <!-- Cards go here -->
                     <div>
@@ -76,6 +75,7 @@
                         </div>
                     </div>
                 </div> 
+            </div>    
                 <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Most Popular</h4>
                 <div class="mt-8">
                     <!-- Cards go here -->
