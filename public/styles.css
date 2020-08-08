@@ -18363,6 +18363,35 @@ video {
           animation: bounce 1s infinite;
 }
 
+.card{
+  margin-top: 2rem;
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  border-radius: 0.25rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  position: relative;
+}
+
+.badges{
+  --bg-opacity: 1;
+  background-color: #E2E2D5;
+  background-color: rgba(226, 226, 213, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #888883;
+  color: rgba(136, 136, 131, var(--text-opacity));
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 0.5rem;
+  position: absolute;
+  top: 0;
+  margin-left: 0.75rem;
+  margin-top: 0.75rem;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
